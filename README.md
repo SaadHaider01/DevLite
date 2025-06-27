@@ -30,24 +30,23 @@ devlite/
 ├── single.php             # Blog post template
 ├── LICENSE.txt            # GPL v2 or later
 └── README.md              # This file
-
-🔧 Customization
+```
+## 🔧 Customization
 Use functions.php to enqueue custom scripts/styles.
 
 Override template parts (e.g., header.php, single.php) as needed.
 
 Add more template files (archive.php, 404.php, etc.) based on your site’s structure.
 
-📄 License
+## 📄 License
 This theme is licensed under the GNU General Public License v2 or later. You are free to use, modify, and distribute this theme with proper attribution.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Saad Haider
 🔗 GitHub
 📫 saadhaider349@gmail.com
 
-🤝 Contributions
-Pull requests are welcome. If you have ideas to improve this theme or fix issues, feel free to fork the repo and submit a PR.
 
-⭐️ Give it a Star
+
+## ⭐️ Give it a Star
 If you like this theme, please consider giving it a ⭐️ on GitHub — it helps others discover the project!
