@@ -1,0 +1,349 @@
+/*
+Theme Name: DevLite
+Description: A minimalist developer blog theme with clean design and modern functionality
+Version: 1.0
+Author: Your Name
+*/
+
+/* CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background: #f7fafc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    text-decoration: none;
+}
+
+.site-title:hover {
+    color: #4299e1;
+}
+
+/* Navigation */
+.main-navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.main-navigation a {
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-navigation a:hover {
+    color: #4299e1;
+}
+
+/* Main Content */
+.site-main {
+    padding: 3rem 0;
+    min-height: 60vh;
+}
+
+/* Post Styles */
+.post {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post-header {
+    margin-bottom: 1.5rem;
+}
+
+.post-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.post-title a {
+    color: #1a202c;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: #4299e1;
+}
+
+.post-meta {
+    color: #718096;
+    font-size: 0.875rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.post-thumbnail {
+    margin-bottom: 1.5rem;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-content {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.post-content p {
+    margin-bottom: 1rem;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    margin: 1.5rem 0 1rem 0;
+    color: #1a202c;
+}
+
+.post-content code {
+    background: #f1f5f9;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.875rem;
+}
+
+.post-content pre {
+    background: #1a202c;
+    color: #e2e8f0;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.post-content pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+.read-more {
+    color: #4299e1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2rem;
+    color: #1a202c;
+    margin-bottom: 0.5rem;
+}
+
+.archive-description {
+    color: #718096;
+    font-size: 1.125rem;
+}
+
+/* Post Navigation */
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post-navigation a {
+    color: #4299e1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.post-navigation a:hover {
+    text-decoration: underline;
+}
+
+.nav-previous,
+.nav-next {
+    flex: 1;
+}
+
+.nav-next {
+    text-align: right;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.pagination a,
+.pagination span {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #4a5568;
+}
+
+.pagination a:hover {
+    background: #4299e1;
+    color: #fff;
+}
+
+.pagination .current {
+    background: #4299e1;
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.widget {
+    margin-bottom: 2rem;
+}
+
+.widget-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+/* No Posts */
+.no-posts {
+    text-align: center;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.no-posts h2 {
+    color: #1a202c;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.site-footer {
+    background: #1a202c;
+    color: #a0aec0;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer-navigation a {
+    color: #a0aec0;
+    text-decoration: none;
+}
+
+.footer-navigation a:hover {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .main-navigation ul {
+        gap: 1rem;
+    }
+    
+    .post {
+        padding: 1.5rem;
+    }
+    
+    .post-title {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .post-navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-next {
+        text-align: left;
+    }
+    
+    .footer-navigation ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
