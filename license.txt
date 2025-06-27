@@ -1,0 +1,24 @@
+DevLite - A WordPress Theme
+Author: Saad Haider
+Theme URI: https://github.com/SaadHaider01/DevLite
+Author URI: https://github.com/SaadHaider01
+
+This theme, DevLite, is licensed under the GNU General Public License v2 or later.
+
+You are free to use, modify, and distribute this software under the terms of the GNU GPL version 2 or later.
+
+For the full license text, please visit: https://www.gnu.org/licenses/gpl-2.0.html
+
+-----------------------------------------------------------------
+
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+[...trimmed for brevity... You can copy the full license from https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt]
+
+-----------------------------------------------------------------

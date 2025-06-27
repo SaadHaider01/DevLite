@@ -1,9 +1,14 @@
+
 /*
 Theme Name: DevLite
-Description: A minimalist developer blog theme with clean design and modern functionality
+Author: Saad Haider
+Description: A clean and lightweight custom WordPress theme for developers.
 Version: 1.0
-Author: Your Name
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: devlite
 */
+
 
 /* CSS Reset and Base Styles */
 * {
